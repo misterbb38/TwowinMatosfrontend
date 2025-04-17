@@ -2,7 +2,8 @@ import axios from "axios";
 
 // Créer une instance axios avec la base URL de notre API
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://twowinmatosbackend.onrender.com",//
+  //baseURL: "http://localhost:5000/api",
   headers: {
     "Content-Type": "application/json",
   },
